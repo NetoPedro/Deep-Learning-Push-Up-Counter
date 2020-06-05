@@ -35,6 +35,8 @@ A validation set was also created to evaluate the performance of the algorithm.
 
 ### Model training 
 
+The model used was a small convolutional neural network built in Keras. The goal of the model was from the input frames, predict if the subject was moving down, up or not moving. The training was a simple process so the input was resized to 64x64. However, the result in the test set was not perfect, and this might indicate that some of the frames were wrongly labeled, or the dataset slightly skewed. In a more positive note, despicte the fact that the model was trained only on push ups, it was able to correctly predict pull ups in the test set. 
+
 ### Counting repetitions
 
 ### Evaluation on a test video
