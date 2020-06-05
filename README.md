@@ -5,6 +5,8 @@
 
 ## Goal
 
+This project aims to build a deep learning solution to count the repetitions of exercises such as push ups or pull ups. A model that can run on phones and that is possible to train with only a few hundred images. 
+
 ## Workflow 
 
 - Gather videos from push ups 
