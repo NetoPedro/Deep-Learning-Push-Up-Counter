@@ -2,7 +2,10 @@
 
 **Disclaimer:** This project was developed to integrate with an Android application during a 24 hours hackathon. One of the key elements was to keep the model small, capable of performing well on phones and easy to train with data manually gathered during those 24 hours. Therefore, this a simplistic approach to the problem of counting push ups, pull ups and squats. 
 
+## Demo
 
+
+[![Demo](https://img.youtube.com/vi/3LaeKHo5xk8/0.jpg)](https://www.youtube.com/watch?v=3LaeKHo5xk8 "Demo")
 ## Goal
 
 This project aims to build a deep learning solution to count the repetitions of exercises such as push ups or pull ups. A model that can run on phones and that is possible to train with only a few hundred images. 
