@@ -39,7 +39,11 @@ The model used was a small convolutional neural network built in Keras. The goal
 
 ### Counting repetitions
 
+To count the repetitions of an exercise, the movement of the subject was analysed frame by frame. And what was considered as a repetition was a change of state, for example for push ups when the subject moves from an "Up move" to a "Down move". This did not work immediately so a tolerance had to be built due to the accuracy of the model not being 100%. The current state of the subject was then changed to a specific movement if X consecutive frames were classified with that movement. This value of X can be changed exercise wise, and I have found that push ups and pull ups work better with different X values.
+
 ### Evaluation on a test video
+
+Finally I have added some result videos to my youtube channel. 
 
 [![Video1](https://img.youtube.com/vi/wf9ZE0j2Q_o/0.jpg)](https://www.youtube.com/watch?v=wf9ZE0j2Q_o "Video 1")
 
