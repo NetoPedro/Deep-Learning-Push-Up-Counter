@@ -25,7 +25,13 @@ This project aims to build a deep learning solution to count the repetitions of 
 
 - Process test videos using a pipeline composed of the farneback optical flow algorithm + the deep neural network + the algorithm to estimate the repetitions using the predictions of the network.
 
-### Dataset construction 
+### Dataset construction
+
+The dataset (available in ./data/) was constructed from several videos removed from youtube and some home-made videos. The videos were processed with the optical flow algorithm. This algorithm allowed to construct a new video with a few colours representing the movement of the subjects in the videos. 
+
+Afterwards, from the recently generated videos some frames were selected and manually labeled. The labels used were "Moving Up", "Moving Down" or "Not Moving". The latter represents all kind of moves different from down and up. 
+
+A validation set was also created to evaluate the performance of the algorithm. 
 
 ### Model training 
 
