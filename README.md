@@ -7,6 +7,18 @@
 
 ## Workflow 
 
+- Gather videos from push ups 
+
+- Use farneback optical flow algorithm to preprocess the videos frame by frame.
+
+- Label individually a few hundred of images generated.
+
+- Train a deep neural network using those images. 
+
+- Develop a method to count the repetition from the analysis of the movement in the video.
+
+- Process test videos using a pipeline composed of the farneback optical flow algorithm + the deep neural network + the algorithm to estimate the repetitions using the predictions of the network.
+
 ### Dataset construction 
 
 ### Model training 
